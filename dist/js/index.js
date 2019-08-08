@@ -58,7 +58,6 @@ function bindEvent(data) {
         }
     })
     $('.play-btn').on('click', function(){
-        console.log(audio.status)
         if(audio.status == 'pause'){
             audio.play();
             root.pro.start();

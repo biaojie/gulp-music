@@ -5,19 +5,9 @@
     }
     Control.prototype = {
         prev: function() {
-            // if(this.index == 0){
-            //     this.index = len;
-            // }else{
-            //     this.index--;
-            // }
             return this.getIndex(-1);
         },
         next: function() {
-            // if(this.index == len){
-            //     this.index = 0;
-            // }else{
-            //     this.index++;
-            // }
             return this.getIndex(1);
         },
         getIndex: function(val){
